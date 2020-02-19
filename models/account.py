@@ -1,4 +1,4 @@
-from .base import metadata, sqlalchemy
+from . import metadata, sqlalchemy
 
 Account = sqlalchemy.Table(
     "account",

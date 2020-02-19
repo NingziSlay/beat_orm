@@ -1,1 +1,3 @@
-from .account import Account, Profile
+import sqlalchemy
+
+metadata = sqlalchemy.MetaData()
