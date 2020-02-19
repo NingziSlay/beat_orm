@@ -3,5 +3,5 @@ import sqlalchemy
 metadata = sqlalchemy.MetaData()
 
 
-def hello():
-    print("hello world")
+def init_tables(engine: sqlalchemy.engine.base.Engine):
+    metadata.create_all(bind=engine)
