@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="beat_orm",
-    version="0.0.2",
+    version="0.0.3",
     author="Ningzi",
     author_email="ningzi0610@gmail.com",
     description="beat's orm",
