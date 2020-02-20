@@ -1,6 +1,6 @@
 import orm
 
-from beat_orm import BaseOrmModel, metadata
+from . import BaseOrmModel, metadata
 
 
 class Profile(BaseOrmModel):
